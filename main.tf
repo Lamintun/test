@@ -1,3 +1,3 @@
 resource "terraform_data" "replacement" {
-  input = jsondecode(var.test)
+  input = local.test
 }
